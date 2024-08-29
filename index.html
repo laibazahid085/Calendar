@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+                aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
+                aria-label="Slide 9"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9"
+                aria-label="Slide 10"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10"
+                aria-label="Slide 11"></button>
+        </div>
+        <div class="carousel-inner ">
+            <div class="carousel-item active c-item ">
+                <img src="asset/January.png" class="d-block w-100 img-item" alt="calendar">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color: black;">JANUARY <sup>2024</sup></h1>
+                    <table>
+                        <tr>
+                            <th>Su</th>
+                            <th>Mo</th>
+                            <th>Tu</th>
+                            <th>We</th>
+                            <th>Th</th>
+                            <th>Fr</th>
+                            <th>Sa</th>
+                        </tr>
+                        <tr>
+                            <td class="hide">31</td>
+                            <td class="holiday"><abbr title="New Year">1</abbr> </td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">7</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">14</td>
+                            <td>15</td>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">21</td>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">28</td>
+                            <td>29</td>
+                            <td>30</td>
+                            <td>31</td>
+                            <td class="hide">1</td>
+                            <td class="hide">2</td>
+                            <td class="hide">3</td>
+                        </tr>
+                        <tr>
+                            <td class="hide">4</td>
+                            <td class="hide">5</td>
+                            <td class="hide">6</td>
+                            <td class="hide">7</td>
+                            <td class="hide">8</td>
+                            <td class="hide">9</td>
+                            <td class="hide">10</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="carousel-item c-item">
+                <img src="asset/february.jpg" class="d-block w-100 img-item" alt="calendar">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color: black;">FEBUARY <sup>2024</sup></h1>
+                    <table>
+                        <tr>
+                            <th>Su</th>
+                            <th>Mo</th>
+                            <th>Tu</th>
+                            <th>We</th>
+                            <th>Th</th>
+                            <th>Fr</th>
+                            <th>Sa</th>
+                        </tr>
+                        <tr>
+                            <td class="hide">28</td>
+                            <td class="hide">29</td>
+                            <td class="hide">30</td>
+                            <td class="hide">31</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">4</td>
+                            <td class="holiday"><abbr title="Kashmir Day">5</abbr></td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td class="holiday"><abbr title="Shab e-Meraj">8</abbr></td>
+                            <td>9</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td>15</td>
+                            <td>16</td>
+                            <td>17</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">25</td>
+                            <td class="holiday"><abbr title="Shab e-Barat">26</abbr></td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td>29</td>
+                            <td class="hide">1</td>
+                            <td class="hide">2</td>
+                        </tr>
+                        <tr>
+                            <td class="hide">3</td>
+                            <td class="hide">4</td>
+                            <td class="hide">5</td>
+                            <td class="hide">6</td>
+                            <td class="hide">7</td>
+                            <td class="hide">8</td>
+                            <td class="hide">9</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="carousel-item c-item">
+                <img src="asset/march.jpg" class="d-block w-100 img-item" alt="calendar">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color: black;">MARCH <sup>2024</sup></h1>
+                    <table>
+                        <tr>
+                            <th>Su</th>
+                            <th>Mo</th>
+                            <th>Tu</th>
+                            <th>We</th>
+                            <th>Th</th>
+                            <th>Fr</th>
+                            <th>Sa</th>
+                        </tr>
+                        <tr>
+                            <td class="hide">25</td>
+                            <td class="hide">26</td>
+                            <td class="hide">27</td>
+                            <td class="hide">28</td>
+                            <td class="hide">29</td>
+                            <td>1</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">10</td>
+                            <td>11</td>
+                            <td class="holiday"><abbr title="Ramadan">12</abbr></td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td>15</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                            <td>23</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">24</td>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td>29</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">31</td>
+                            <td class="hide">1</td>
+                            <td class="hide">2</td>
+                            <td class="hide">3</td>
+                            <td class="hide">4</td>
+                            <td class="hide">5</td>
+                            <td class="hide">6</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="carousel-item c-item">
+                <img src="asset/april.png" class="d-block w-100 img-item" alt="calendar">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color: black;">APRIL <sup>2024</sup></h1>
+                    <table>
+                        <tr>
+                            <th>Su</th>
+                            <th>Mo</th>
+                            <th>Tu</th>
+                            <th>We</th>
+                            <th>Th</th>
+                            <th>Fr</th>
+                            <th>Sa</th>
+                        </tr>
+                        <tr>
+                            <td class="hide">31</td>
+                            <td class="holiday">1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">7</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td class="holiday"><abbr title="Eid-ul-Fitr">10</abbr></td>
+                            <td class="holiday"><abbr title="Eid-ul-Fitr">11</abbr></td>
+                            <td class="holiday"><abbr title="Eid-ul-Fitr">12</abbr></td>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">14</td>
+                            <td>15</td>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">21</td>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">28</td>
+                            <td>29</td>
+                            <td>30</td>
+                            <td class="hide">1</td>
+                            <td class="hide">2</td>
+                            <td class="hide">3</td>
+                            <td class="hide">4</td>
+                        </tr>
+                        <tr>
+                            <td class="hide">5</td>
+                            <td class="hide">6</td>
+                            <td class="hide">7</td>
+                            <td class="hide">8</td>
+                            <td class="hide">9</td>
+                            <td class="hide">10</td>
+                            <td class="hide">11</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="carousel-item c-item">
+                <img src="asset/may.jpg" class="d-block w-100 img-item" alt="calendar">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color: black;">MAY <sup>2024</sup></h1>
+                    <table>
+                        <tr>
+                            <th>Su</th>
+                            <th>Mo</th>
+                            <th>Tu</th>
+                            <th>We</th>
+                            <th>Th</th>
+                            <th>Fr</th>
+                            <th>Sa</th>
+                        </tr>
+                        <tr>
+                            <td class="hide">28</td>
+                            <td class="hide">29</td>
+                            <td class="hide">30</td>
+                            <td class="holiday"><abbr title="Labour Day">1</abbr></td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">12</td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td>15</td>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>18</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">19</td>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td>29</td>
+                            <td>30</td>
+                            <td>31</td>
+                            <td class="hide">1</td>
+                        </tr>
+                        <tr>
+                            <td class="hide">2</td>
+                            <td class="hide">3</td>
+                            <td class="hide">4</td>
+                            <td class="hide">5</td>
+                            <td class="hide">6</td>
+                            <td class="hide">7</td>
+                            <td class="hide">8</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="carousel-item c-item">
+                <img src="asset/june.png" class="d-block w-100 img-item" alt="calendar">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color: black;">JUNE <sup>2024</sup></h1>
+                    <table>
+                        <tr>
+                            <th>Su</th>
+                            <th>Mo</th>
+                            <th>Tu</th>
+                            <th>We</th>
+                            <th>Th</th>
+                            <th>Fr</th>
+                            <th>Sa</th>
+                        </tr>
+                        <tr>
+                            <td class="hide">26</td>
+                            <td class="hide">27</td>
+                            <td class="hide">28</td>
+                            <td class="hide">29</td>
+                            <td class="hide">30</td>
+                            <td class="hide">31</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">16</td>
+                            <td class="holiday"><abbr title="Eid al-Adha">17</abbr></td>
+                            <td class="holiday"><abbr title="Eid al-Adha">18</abbr></td>
+                            <td class="holiday"><abbr title="Eid al-Adha">19</abbr></td>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">23</td>
+                            <td>24</td>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td>29</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">30</td>
+                            <td class="hide">1</td>
+                            <td class="hide">2</td>
+                            <td class="hide">3</td>
+                            <td class="hide">4</td>
+                            <td class="hide">5</td>
+                            <td class="hide">6</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="carousel-item c-item">
+                <img src="asset/july.jpg" class="d-block w-100 img-item" alt="calendar">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color: black;">JULY <sup>2024</sup></h1>
+                    <table>
+                        <tr>
+                            <th>Su</th>
+                            <th>Mo</th>
+                            <th>Tu</th>
+                            <th>We</th>
+                            <th>Th</th>
+                            <th>Fr</th>
+                            <th>Sa</th>
+                        </tr>
+                        <tr>
+                            <td class="hide">30</td>
+                            <td class="holiday"><abbr title="Bank Holiday">1</abbr></td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">7</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">14</td>
+                            <td>15</td>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">21</td>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">28</td>
+                            <td>29</td>
+                            <td>30</td>
+                            <td>31</td>
+                            <td class="hide">1</td>
+                            <td class="hide">2</td>
+                            <td class="hide">3</td>
+                        </tr>
+                        <tr>
+                            <td class="hide">4</td>
+                            <td class="hide">5</td>
+                            <td class="hide">6</td>
+                            <td class="hide">7</td>
+                            <td class="hide">8</td>
+                            <td class="hide">9</td>
+                            <td class="hide">10</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="carousel-item c-item">
+                <img src="asset/aug.jpg" class="d-block w-100 img-item" alt="calendar">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color: black;">AUGUST <sup>2024</sup></h1>
+                    <table>
+                        <tr>
+                            <th>Su</th>
+                            <th>Mo</th>
+                            <th>Tu</th>
+                            <th>We</th>
+                            <th>Th</th>
+                            <th>Fr</th>
+                            <th>Sa</th>
+                        </tr>
+                        <tr>
+                            <td class="hide">28</td>
+                            <td class="hide">29</td>
+                            <td class="hide">30</td>
+                            <td class="hide">31</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td class="holiday"><abbr title="Independence Day">14</abbr></td>
+                            <td>15</td>
+                            <td>16</td>
+                            <td>17</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td>29</td>
+                            <td>30</td>
+                            <td>31</td>
+                        </tr>
+                        <tr>
+                            <td class="hide">1</td>
+                            <td class="hide">2</td>
+                            <td class="hide">3</td>
+                            <td class="hide">4</td>
+                            <td class="hide">5</td>
+                            <td class="hide">6</td>
+                            <td class="hide">7</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="carousel-item c-item">
+                <img src="asset/sep.jpg" class="d-block w-100 img-item" alt="calendar">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color: black;">SEPTEMBER <sup>2024</sup></h1>
+                    <table>
+                        <tr>
+                            <th>Su</th>
+                            <th>Mo</th>
+                            <th>Tu</th>
+                            <th>We</th>
+                            <th>Th</th>
+                            <th>Fr</th>
+                            <th>Sa</th>
+                        </tr>
+                        <tr>
+                            <td class="holiday">1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td class="holiday"><abbr title="Defence Day">6</abbr></td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">8</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">15</td>
+                            <td class="holiday"><abbr title="Eid Milad un-Nabi">16</abbr></td>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">22</td>
+                            <td>23</td>
+                            <td>24</td>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">29</td>
+                            <td>30</td>
+                            <td class="hide">1</td>
+                            <td class="hide">2</td>
+                            <td class="hide">3</td>
+                            <td class="hide">4</td>
+                            <td class="hide">5</td>
+                        </tr>
+                        <tr>
+                            <td class="hide">6</td>
+                            <td class="hide">7</td>
+                            <td class="hide">8</td>
+                            <td class="hide">9</td>
+                            <td class="hide">10</td>
+                            <td class="hide">11</td>
+                            <td class="hide">12</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="carousel-item c-item">
+                <img src="asset/oct.jpg" class="d-block w-100 img-item" alt="calendar">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color: black;">OCTOBER <sup>2024</sup></h1>
+                    <table>
+                        <tr>
+                            <th>Su</th>
+                            <th>Mo</th>
+                            <th>Tu</th>
+                            <th>We</th>
+                            <th>Th</th>
+                            <th>Fr</th>
+                            <th>Sa</th>
+                        </tr>
+                        <tr>
+                            <td class="hide">29</td>
+                            <td class="hide">30</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">6</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">13</td>
+                            <td>14</td>
+                            <td>15</td>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">20</td>
+                            <td>21</td>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                            <td>25</td>
+                            <td>26</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">27</td>
+                            <td>28</td>
+                            <td>29</td>
+                            <td>30</td>
+                            <td>31</td>
+                            <td class="hide">1</td>
+                            <td class="hide">2</td>
+                        </tr>
+                        <tr>
+                            <td class="hide">3</td>
+                            <td class="hide">4</td>
+                            <td class="hide">5</td>
+                            <td class="hide">6</td>
+                            <td class="hide">7</td>
+                            <td class="hide">8</td>
+                            <td class="hide">9</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="carousel-item c-item">
+                <img src="asset/nov.png" class="d-block w-100 img-item" alt="calendar">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color: black;">NOVEMBER <sup>2024</sup></h1>
+                    <table>
+                        <tr>
+                            <th>Su</th>
+                            <th>Mo</th>
+                            <th>Tu</th>
+                            <th>We</th>
+                            <th>Th</th>
+                            <th>Fr</th>
+                            <th>Sa</th>
+                        </tr>
+                        <tr>
+                            <td class="hide">27</td>
+                            <td class="hide">28</td>
+                            <td class="hide">29</td>
+                            <td class="hide">30</td>
+                            <td class="hide">31</td>
+                            <td>1</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td class="holiday"><abbr title="Iqbal Day">9</abbr></td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td>15</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                            <td>23</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">24</td>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td>29</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td class="hide">1</td>
+                            <td class="hide">2</td>
+                            <td class="hide">3</td>
+                            <td class="hide">4</td>
+                            <td class="hide">5</td>
+                            <td class="hide">6</td>
+                            <td class="hide">7</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="carousel-item c-item">
+                <img src="asset/dec.jpg" class="d-block w-100 img-item" alt="calendar">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color: black;">DECEMBER <sup>2024</sup></h1>
+                    <table>
+                        <tr>
+                            <th>Su</th>
+                            <th>Mo</th>
+                            <th>Tu</th>
+                            <th>We</th>
+                            <th>Th</th>
+                            <th>Fr</th>
+                            <th>Sa</th>
+                        </tr>
+                        <tr>
+                            <td class="holiday">1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">8</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">15</td>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">22</td>
+                            <td>23</td>
+                            <td>24</td>
+                            <td class="holiday"><abbr title="Quaid-e-Azam Day" title="Christmas Day">25</abbr></td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                        </tr>
+                        <tr>
+                            <td class="holiday">29</td>
+                            <td>30</td>
+                            <td>31</td>
+                            <td class="hide">1</td>
+                            <td class="hide">2</td>
+                            <td class="hide">3</td>
+                            <td class="hide">4</td>
+                        </tr>
+                        <tr>
+                            <td class="hide">5</td>
+                            <td class="hide">6</td>
+                            <td class="hide">7</td>
+                            <td class="hide">8</td>
+                            <td class="hide">9</td>
+                            <td class="hide">10</td>
+                            <td class="hide">11</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next " type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
